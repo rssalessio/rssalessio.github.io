@@ -7,9 +7,15 @@ layout: homepage
 I am a researcher in Reinforcement Learning and Control methodology. Currently a Postdoc at Boston University, where I'm advised by Prof. Pacchiano Aldo. 
 
 
-I have a Ph.D. in Electrical Engineering from KTH Royal Insitute of Technology (Stockholm), where I was supervised by Prof. Proutiere Alexandre at the Division of Decision and Control Systems.
+- I have a Ph.D. in Electrical Engineering from KTH Royal Insitute of Technology (Stockholm), where I was supervised by Prof. Proutiere Alexandre at the Division of Decision and Control Systems.  MSc in Automation and Control Engineering (Politecnico di Milano) and BSc in Computer Science Engineering (University of Genoa).
+
+- Due to my past experiences, and interests, I have a versatile background, with both theoretical and practical expertise. I also have extensive experience in managing projects and heterogeneous teams. 
+
+- Programming languages: Python, C, C++
 
 ## Research Interests
+
+My research interests are in statistical learning, particularly in the areas of learning for sequential decision making.
 
 - **Reinforcement Learning:** adaptive exploration (theoretical and practical), bandit algorithms and robust RL
 - **Adaptive and Robust Control**: adaptive control, adaptive MPC and non-linear control
