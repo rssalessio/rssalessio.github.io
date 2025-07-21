@@ -11,8 +11,8 @@ I have a Ph.D. in Electrical Engineering from KTH Royal Insitute of Technology (
 
 ## Research Interests
 
-- **Reinforcement Learning:** adaptive exploration (theoretical and practical), bandit algorithms
-- **Adaptive Control**: adaptive control, MPC and non-linear control
+- **Reinforcement Learning:** adaptive exploration (theoretical and practical), bandit algorithms and robust RL
+- **Adaptive and Robust Control**: adaptive control, adaptive MPC and non-linear control
 - **Machine Learning:** meta-learning and curriculum learning
 
 ## News

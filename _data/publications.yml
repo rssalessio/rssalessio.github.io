@@ -1,22 +1,33 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: Learning to Explore: An In-Context Learning Approach for Pure Exploration
+    authors: <strong>Alessio Russo*</strong>, Ryan Welch*, Aldo Pacchiano
+    conference_short: Arxiv
+    conference: <strong>Arxiv</strong>
+    pdf: https://arxiv.org/pdf/2506.01876
+    # code: https://github.com/MrGiovanni/ContinualLearning
+    # bibtex: https://bib.yliu.me/MICCAI23.txt
+    image: ./assets/img/icpeexplore.png
+    notes: Under Review
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+  - title: "Adaptive Exploration for Multi-Reward Multi-Policy Evaluation"
+    authors: <strong>Alessio Russo</strong>, Aldo Pacchiano
+    conference_short: ICML
+    conference: <strong>ICML</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2502.02516
+    code: https://github.com/rssalessio/multi-reward-multi-policy-eval
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Poster
+    image: ./assets/img/adaptiveexplorationmulti.png
+
+  - title: "Pure Exploration with Feedback Graphs"
+    authors: <strong>Alessio Russo</strong>, Yichen Song, Aldo Pacchiano
+    conference_short: AISTATS
+    conference: <strong>AISTATS</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2503.07824
+    code: https://github.com/rssalessio/Pure-Exploration-with-Feedback-Graphs
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/pureexplorationfeedback.png
