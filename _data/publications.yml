@@ -1,6 +1,5 @@
 main:
-
-  - title: Learning to Explore: An In-Context Learning Approach for Pure Exploration
+  - title: "Learning to Explore: An In-Context Learning Approach for Pure Exploration"
     authors: <strong>Alessio Russo*</strong>, Ryan Welch*, Aldo Pacchiano
     conference_short: Arxiv
     conference: <strong>Arxiv</strong>
