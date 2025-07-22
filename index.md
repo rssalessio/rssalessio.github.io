@@ -15,9 +15,8 @@ I am a researcher in Reinforcement Learning and Control methodology. Currently a
 
 My research interests are in statistical learning, particularly in the areas of learning for sequential decision making.
 
-- **Reinforcement Learning:** adaptive exploration (theoretical and practical), bandit algorithms and robust RL
-- **Adaptive and Robust Control**: adaptive control, adaptive MPC and non-linear control
-- **Machine Learning:** meta-learning and curriculum learning
+- **Reinforcement Learning:** adaptive/pure exploration (theoretical and practical), self-play RL, robust/adversarial RL and bandit algorithms.
+- **Adaptive and Robust Control**: adaptive control (e.g., MRAC/L1), adaptive MPC and non-linear control.
 
 ## News
 
