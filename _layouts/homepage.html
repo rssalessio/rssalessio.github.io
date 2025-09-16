@@ -100,8 +100,9 @@
 
       {{ content }}
 
-      {% include publications.html %}
-      
+      {%- unless page.hide_publications or site.hide_publications -%}
+        {% include publications.html %}
+      {%- endunless -%}
       <!-- {% include services.html %} -->
 
       <br>

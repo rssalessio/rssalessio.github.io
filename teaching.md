@@ -2,8 +2,12 @@
 layout: homepage
 title: Teaching
 permalink: /teaching/
+hide_publications: true
+hide_services: true
 ---
-[Home](/) · [Teaching](/teaching/) · [Talks](/talks/)
+
+<nav class="subnav">[Home](/) · [Teaching](/teaching/) · [Talks](/talks/)</nav>
+
 
 # Teaching
 - BU CS ***Course Title*** (Fall 2025) — [syllabus PDF](/assets/files/syllabus_f25.pdf)
