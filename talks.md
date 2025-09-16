@@ -2,8 +2,11 @@
 layout: homepage
 title: Talks & Presentations
 permalink: /talks/
+hide_publications: true
+hide_services: true
 ---
-[Home](/) · [Teaching](/teaching/) · [Talks](/talks/)
+
+<nav class="subnav"><a href="/">Home</a> · <a href="/teaching/">Teaching</a> · <a href="/talks/">Talks</a></nav>
 
 # Talks & Presentations
 - **ICML 2025 Spotlight** — [slides (PDF)](/assets/files/icml25_spotlight.pdf) • [video (YouTube)](https://youtu.be/XXXXXXXX)
