@@ -21,6 +21,7 @@ My research interests are in statistical learning, particularly in the areas of 
 
 ## News
 
+- **[Sept. 2025]**  "Adversarial Diffusion for Robust Reinforcement Learning" has been accepted as a **poster** to **NeurIPS** 2025 (San Diego, USA)
 - **[Sept. 2025]**  "In-Context Pure Exploration" has been accepted to the NY-RL workshop @ **NY-RL** 2025 (New York, USA)
 - **[Jun. 2025]**  "In-Context Pure Exploration" has been accepted to the EXAIT workshop @ **ICML** 2025 (Vancouver, Canada)
 - **[Jun. 2025]**  Presenting "Optimal Exploration With Feedback Graphs" at **Informs APS** 2025, in Atlanta.
