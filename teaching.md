@@ -10,3 +10,5 @@ hide_services: true
 
 # Teaching
 - ***Active Sequential Hypothesis Testing*** (Boston University, Fall 2025) — [website](https://sites.google.com/view/asht2025/home)
+- ***Reinforcement Learning*** (KTH, 2020/21-2022/23) — [website](https://www.kth.se/student/kurser/kurs/EL2805?l=en)
+- ***Automatic Control*** (KTH, 2019/20) — [website](https://www.kth.se/student/kurser/kurs/EL1000?l=en)
