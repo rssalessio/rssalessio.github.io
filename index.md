@@ -18,7 +18,7 @@ My research interests are in statistical learning, particularly in the areas of 
 
 - **Reinforcement Learning:** adaptive/pure exploration (theoretical and practical), self-play RL, robust/adversarial RL and bandit algorithms.
 - **Adaptive and Robust Control**: adaptive control (e.g., MRAC/L1), adaptive MPC and non-linear control.
-
+<!-- 
 ## News
 
 - **[Oct. 2025]** I was awarded the [**NCCR Research Fellowship 2025**](https://nccr-automation.ch/)! I will spend few months visiting the lab of [**Prof. Krause**](https://las.inf.ethz.ch/krausea) at **ETH**!
@@ -30,4 +30,4 @@ My research interests are in statistical learning, particularly in the areas of 
 - **[Apr. 2025]**  "Adaptive Exploration for Multi-Reward Multi-Policy Exploration" has been accepted as a poster to **ICML** 2025 (Vancouver, Canada)
 - **[Dec. 2024]** Our paper "Pure Exploration with Feedback Graphs" has been accepted as an **oral** to **AISTATS** 2025 (Phuket, Thailand)
 - **[Sep. 2024]** "Multi-Reward Best-Policy Identification" has been accepted as a **poster** to **NeurIPS** 2024 (Vancouver, Canada)
-- **[Jul. 2024]** Our paper about "Fair Best Arm Identification with Fixed Confidence" has been accepted sa an **oral** to **CDC** 2024 (Milan, Italy)
+- **[Jul. 2024]** Our paper about "Fair Best Arm Identification with Fixed Confidence" has been accepted sa an **oral** to **CDC** 2024 (Milan, Italy) -->
