@@ -10,7 +10,7 @@
 - date: 2025-10-10         # machine date (for sorting)
   label: Oct. 2025         # what you want to display inside [ ... ]
   content: >-
-   [Oct. 2025] I was recognized as a **NeurIPS 2025 Top Reviewer**! (Top 10%)
+   I was recognized as a **NeurIPS 2025 Top Reviewer**! (Top 10%)
 
 
 # more examples
