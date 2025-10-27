@@ -18,6 +18,8 @@ My research interests are in statistical learning, particularly in the areas of 
 
 - **Reinforcement Learning:** adaptive/pure exploration (theoretical and practical), self-play RL, robust/adversarial RL and bandit algorithms.
 - **Adaptive and Robust Control**: adaptive control (e.g., MRAC/L1), adaptive MPC and non-linear control.
+
+
 <!-- 
 ## News
 
