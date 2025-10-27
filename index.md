@@ -21,7 +21,7 @@ My research interests are in statistical learning, particularly in the areas of 
 
 ## News
 
-- **[Oct. 2025]** I was awarded the [**NCCR Fellowship**](https://nccr-automation.ch/)! I will spend few months visiting the lab of [**Prof. Krause**](https://las.inf.ethz.ch/krausea) at **ETH**!
+- **[Oct. 2025]** I was awarded the [**NCCR Research Fellowship 2025**](https://nccr-automation.ch/)! I will spend few months visiting the lab of [**Prof. Krause**](https://las.inf.ethz.ch/krausea) at **ETH**!
 - **[Oct. 2025]** I was recognized as a **NeurIPS 2025 Top Reviewer**! (Top 10%) 
 - {::span .news-date}[Sept. 2025]{:/span}  "Adversarial Diffusion for Robust Reinforcement Learning" has been accepted as a **poster** to **NeurIPS** 2025 (San Diego, USA)
 - **[Sept. 2025]**  "In-Context Pure Exploration" has been accepted to the NY-RL workshop @ **NY-RL** 2025 (New York, USA)
