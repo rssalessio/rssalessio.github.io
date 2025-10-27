@@ -601,4 +601,21 @@ footer {
 .subnav a { display:inline-block; margin: 0 8px; text-decoration:none; }
 
 
-.news-list li > strong:first-child { color:#64748b; font-weight:700; }
+
+
+// news
+.news-list { padding-left: 1.25rem; }
+.news-item { margin: .25rem 0; line-height: 1.45; }
+
+.news-date  { color:#64748b; font-weight:600; }         /* date color */
+.news-venue { background:#f1f5f9; color:#334155; 
+              border-radius:9999px; padding:0 .45em; font-size:.85em; 
+              margin-left:.35em; }
+
+.news-list a { text-decoration:none; }
+.news-list a:hover { text-decoration:underline; }
+
+@media (prefers-color-scheme: dark) {
+  .news-date  { color:#93c5fd; }
+  .news-venue { background:#1f2937; color:#cbd5e1; }
+}
