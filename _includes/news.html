@@ -1,0 +1,10 @@
+<ul class="news-list">
+    {% for item in site.data.news %}
+    <li class="news-item">
+    <span class="news-date">[{{ item.date_label }}]</span>
+    “{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}”
+    {% if item.venue %}<span class="news-venue">{{ item.venue }}</span>{% endif %}
+    {% if item.location %} ({{ item.location }}){% endif %}
+    </li>
+    {% endfor %}
+</ul>
