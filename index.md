@@ -10,7 +10,7 @@ I am a researcher in Reinforcement Learning and Control methodology. Currently a
 
 - I have a Ph.D. in Electrical Engineering from KTH Royal Insitute of Technology (Stockholm), where I was supervised by Prof. Proutiere Alexandre at the Division of Decision and Control Systems.  
 - Due to my past experiences, and interests, I have a versatile background, with both theoretical and practical expertise.
-- Programming languages: Python, C, C++
+<!-- - Programming languages: Python, C, C++ -->
 
 My **research interests** are in statistical learning, particularly in the areas of learning for sequential decision making. I have also an interest in **Robust Control** and **Robust Reinforcement Learning**.
 
