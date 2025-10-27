@@ -1,13 +1,12 @@
-- date_label: "Oct. 2025"
-  description: I was awarded the [**NCCR Research Fellowship 2025**](https://nccr-automation.ch/)! I will spend few months visiting the lab of [**Prof. Krause**](https://las.inf.ethz.ch/krausea) at **ETH**!
+# Newest first or use the 'date' field and we'll sort.
+- date: 2025-10-01         # machine date (for sorting)
+  label: Oct. 2025         # what you want to display inside [ ... ]
+  content: >-
+    I was awarded the [**NCCR Research Fellowship 2025**](https://nccr-automation.ch/)! 
+    I will spend few months visiting the lab of [**Prof. Krause**](https://las.inf.ethz.ch/krausea) at **ETH**!
 
-- date_label: "Sept. 2025"
-  title: "Adversarial Diffusion for Robust Reinforcement Learning"
-  url: "https://arxiv.org/abs/XXXX.XXXXX"
-  venue: "NeurIPS 2025 · Poster"
-  location: "San Diego, USA"
-
-- date_label: "Jun. 2025"
-  title: "In-Context Pure Exploration"
-  venue: "NY-RL 2025 Workshop"
-  location: "New York, USA"
+# more examples
+- date: 2025-09-10
+  label: Sept. 2025
+  content: >-
+    “Adversarial Diffusion for Robust Reinforcement Learning” has been accepted as a **poster** to **NeurIPS 2025** (San Diego, USA).

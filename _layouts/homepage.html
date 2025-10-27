@@ -108,7 +108,8 @@
 
       
       {%- unless page.hide_news or site.hide_news -%}
-        {% include news.html %}
+        <!-- {% include news.html %} -->
+        {% include news.html limit=6 more_link='/news/' %}
       {%- endunless -%}
 
 

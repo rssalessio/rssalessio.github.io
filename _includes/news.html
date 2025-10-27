@@ -1,6 +1,24 @@
 <h2 id="news" style="margin: 2px 0px 15px;">News</h2>
 
+
+{% assign items = site.data.news | sort: 'date' | reverse %}
+{% if include.limit %}{% assign items = items | slice: 0, include.limit %}{% endif %}
+
 <ul class="news-list">
+  {% for item in items %}
+  <li class="news-item">
+    <span class="news-date">[{{ item.label | escape }}]</span>
+    <span class="news-text">
+      {{ item.content | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+    </span>
+  </li>
+  {% endfor %}
+</ul>
+
+{% if include.more_link %}
+<p class="news-more"><a href="{{ include.more_link }}">All news →</a></p>
+{% endif %}
+<!-- <ul class="news-list">
     {% for item in site.data.news %}
     <li class="news-item">
     <span class="news-date">[{{ item.date_label }}]</span>
@@ -10,4 +28,4 @@
     {% if item.location %} ({{ item.location }}){% endif %}
     </li>
     {% endfor %}
-</ul>
+</ul> -->
