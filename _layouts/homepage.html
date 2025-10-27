@@ -92,6 +92,12 @@
           <i class="fab fa-x-twitter"></i>
         </a>
         {% endif %}
+
+        {% if site.bluesky %}
+        <a style="margin: 0 0 0 0" href="{{ site.bluesky }}">
+          <i class="fab fa-x-bluesky"></i>
+        </a>
+        {% endif %}
         </div>
         <br>
 
@@ -101,7 +107,9 @@
       {{ content }}
 
       
-      {% include news.html %}
+      {%- unless page.hide_news or site.hide_news -%}
+        {% include news.html %}
+      {%- endunless -%}
 
 
       {%- unless page.hide_publications or site.hide_publications -%}
