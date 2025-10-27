@@ -12,13 +12,12 @@ I am a researcher in Reinforcement Learning and Control methodology. Currently a
 - Due to my past experiences, and interests, I have a versatile background, with both theoretical and practical expertise.
 - Programming languages: Python, C, C++
 
-## Research Interests
+My **research interests** are in statistical learning, particularly in the areas of learning for sequential decision making. I have also an interest in **Robust Control** and **Robust Reinforcement Learning**.
 
-My research interests are in statistical learning, particularly in the areas of learning for sequential decision making.
+<!-- - **Reinforcement Learning:** adaptive/pure exploration (theoretical and practical), self-play RL, robust/adversarial RL and bandit algorithms.
+- **Adaptive and Robust Control**: adaptive control (e.g., MRAC/L1), adaptive MPC and non-linear control. -->
 
-- **Reinforcement Learning:** adaptive/pure exploration (theoretical and practical), self-play RL, robust/adversarial RL and bandit algorithms.
-- **Adaptive and Robust Control**: adaptive control (e.g., MRAC/L1), adaptive MPC and non-linear control.
-
+Broadly, my agenda is to uncover the building blocks of adaptive algorithms and translating theoretical insights into reliable algorithms with practical impact. 
 
 <!-- 
 ## News
