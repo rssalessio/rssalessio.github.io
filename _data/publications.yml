@@ -4,13 +4,13 @@ main:
     conference_short: NeurIPS
     conference: <strong>NeurIPS</strong>, 2025.
     pdf: https://arxiv.org/abs/2509.23846
-    # code: https://github.com/MrGiovanni/ContinualLearning
+    code: https://github.com/danielefoffano/AD-RRL
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/adv_diffusion.png
     notes: Poster
 
 
-  - title: "Learning to Explore: An In-Context Learning Approach for Pure Exploration"
+  - title: "In-Context Learning for Pure Exploration"
     authors: <strong>Alessio Russo*</strong>, Ryan Welch*, Aldo Pacchiano
     conference_short: Arxiv
     conference: <strong>Arxiv</strong>
