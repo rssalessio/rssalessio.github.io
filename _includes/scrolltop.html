@@ -13,13 +13,10 @@
   var revealAt = 320; // px
 
   function onScroll() {
-    // reveal: remove [hidden] only once, then toggle a class
     if (window.pageYOffset > revealAt) {
-    box.hidden = false;
-    box.classList.add('is-visible');
+      box.hidden = false;
     } else {
-    box.classList.remove('is-visible');
-    // keep it in DOM; [hidden] only if you truly want it gone
+      box.hidden = true;
     }
   }
   window.addEventListener('scroll', onScroll, { passive: true });
