@@ -1,32 +1,27 @@
-<button id="scrollTop" class="scroll-top" type="button"
-  aria-label="Back to top" title="Back to top">
-  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-    <path d="M12 5l-7 7h4v7h6v-7h4z"/>
-  </svg>
-</button>
+<!-- Back-to-top (namespaced) -->
+<div id="ar-scrolltop" class="ar-scrolltop" hidden>
+  <button type="button" class="ar-scrolltop-btn" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5l-7 7h4v7h6v-7h4z"/></svg>
+  </button>
+</div>
 
 <script>
 (function () {
-  var btn = document.getElementById('scrollTop');
-  if (!btn) return;
-
-  var revealAt = 320; // px scrolled before showing
-  var ticking = false;
+  var box = document.getElementById('ar-scrolltop');
+  if (!box) return;
+  var btn = box.querySelector('.ar-scrolltop-btn');
+  var revealAt = 320; // px
 
   function onScroll() {
-    if (!ticking) {
-      window.requestAnimationFrame(function () {
-        if (window.pageYOffset > revealAt) {
-          btn.classList.add('is-visible');
-        } else {
-          btn.classList.remove('is-visible');
-        }
-        ticking = false;
-      });
-      ticking = true;
+    // reveal: remove [hidden] only once, then toggle a class
+    if (window.pageYOffset > revealAt) {
+    box.hidden = false;
+    box.classList.add('is-visible');
+    } else {
+    box.classList.remove('is-visible');
+    // keep it in DOM; [hidden] only if you truly want it gone
     }
   }
-
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
@@ -37,4 +32,6 @@
 })();
 </script>
 
-<noscript><a href="#" class="scroll-top noscript">↑ Top</a></noscript>
+<noscript>
+  <a href="#" class="ar-scrolltop-fallback">↑ Top</a>
+</noscript>
