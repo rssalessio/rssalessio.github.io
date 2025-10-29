@@ -2,15 +2,15 @@
 - date: 2025-10-13         # machine date (for sorting)
   label: Oct. 2025         # what you want to display inside [ ... ]
   content: >-
-    I was awarded the [**NCCR Research Fellowship 2025**](https://nccr-automation.ch/)! 
-    I will spend a few months visiting the lab of [**Prof. Krause**](https://las.inf.ethz.ch/krausea) at **ETH**!
+    I was awarded the [**NCCR Research Fellowship 2025**](https://nccr-automation.ch/). 
+    I will spend a few months visiting the lab of [**Prof. Krause**](https://las.inf.ethz.ch/krausea) at **ETH**.
 
 
 
 - date: 2025-10-10         # machine date (for sorting)
   label: Oct. 2025         # what you want to display inside [ ... ]
   content: >-
-   I was recognized as a **NeurIPS 2025 Top Reviewer**! (Top 10%)
+   I was recognized as a **NeurIPS 2025 Top Reviewer** (Top 10%)
 
 
 # more examples
