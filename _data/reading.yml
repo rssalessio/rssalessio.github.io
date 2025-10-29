@@ -1,3 +1,39 @@
+- year: 2021
+  title: Martingale posterior distributions
+  url: https://arxiv.org/pdf/2103.15671
+  topics:
+  - Bayesian Learning
+
+- year: 2024
+  title: Is In-Context Learning in Large Language Models Bayesian? A Martingale Perspective
+  url: https://arxiv.org/abs/2406.00793
+  venue: ICML
+  topics:
+  - In-Context Learning
+  - Bayesian Learning
+
+- year: 2024
+  title: Let us Flow Together
+  url: https://www.cs.utexas.edu/~lqiang/PDF/flow_book.pdf
+  topics:
+  - Diffusion
+  - Book
+
+- year: 2025
+  title: The Principles of Diffusion Models
+  url: https://www.arxiv.org/pdf/2510.21890
+  topics:
+  - Diffusion
+  - Book
+
+- year: 2025
+  title: Discovering state-of-the-art reinforcement learning algorithms
+  url: https://www.nature.com/articles/s41586-025-09761-x
+  venue: Nature
+  topics:
+  - Deep Reinforcement Learning
+  - Meta-Learning
+
 - year: 2025
   title: Deep Out-of-Distribution Uncertainty Quantification via Weight Entropy Maximization
   url: https://jmlr.org/papers/volume26/23-1359/23-1359.pdf
@@ -322,6 +358,7 @@
   url: https://arxiv.org/pdf/1707.02038.pdf
   topics:
   - Thompson Sampling
+  - Bayesian Learning
 - year: 2020
   title: 'CoinDICE: Off-Policy Confidence Interval Estimation'
   url: https://arxiv.org/pdf/2010.11652.pdf
