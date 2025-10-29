@@ -11,7 +11,8 @@ lines = text.splitlines()
 
 # --- Regexes ---
 def clean_header(s: str) -> str:
-    # remove leading enumeration like "7.", "12)", "1 .", etc.
+    # strip leading enumeration like "7.", "12)", "1 .", etc.
+    import re
     s = re.sub(r"^\s*\d+\s*[\.\)]\s*", "", s)
     return re.sub(r"\s+", " ", s).strip()
 
@@ -25,15 +26,23 @@ link_re = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 topic = None      # from ## headers (your high-level topics)
 subtopic = None   # from ### headers (optional)
 items = []
+h2_order = []          # <-- NEW: remember H2 topics in order
 seen = set()
 
 for raw in lines:
-    # Track topics/subtopics
     m2 = h2_re.match(raw)
     if m2:
-        topic = clean_header(m2.group(1))
+        hdr = clean_header(m2.group(1))
+        # ignore this H2 if it's just the table of contents
+        if hdr.lower() != "table of contents":
+            topic = hdr
+            if hdr not in h2_order:
+                h2_order.append(hdr)
+        else:
+            topic = hdr  # keep for completeness, but don't add to order
         subtopic = None
         continue
+
     m3 = h3_re.match(raw)
     if m3:
         subtopic = clean_header(m3.group(1))
@@ -94,9 +103,34 @@ def sort_key(it):
 
 items.sort(key=sort_key)
 
-yaml.safe_dump(items, out_path.open("w", encoding="utf-8"), sort_keys=False, allow_unicode=True)
+
+
+# keep only H2 topics that actually appear in at least one item
+present = set()
+for it in items:
+    for t in it.get("topics", []):
+        present.add(t)
+
+ordered_nonempty = [t for t in h2_order if t in present]
+
+# write _data/reading.yml (as you already do)
+yaml.safe_dump(items, out_path.open("w", encoding="utf-8"),
+               sort_keys=False, allow_unicode=True)
+
+# write _data/reading_topics.yml
+topics_path = pathlib.Path("_data/reading_topics.yml")
+topics_path.parent.mkdir(parents=True, exist_ok=True)
+yaml.safe_dump({"order": ordered_nonempty},
+               topics_path.open("w", encoding="utf-8"),
+               sort_keys=False, allow_unicode=True)
 
 print(f"Wrote {len(items)} entries to {out_path}")
-# Optional: preview first few
+print(f"Wrote {len(ordered_nonempty)} topics to {topics_path}")
+
+
+# yaml.safe_dump(items, out_path.open("w", encoding="utf-8"), sort_keys=False, allow_unicode=True)
+
+# print(f"Wrote {len(items)} entries to {out_path}")
+# # Optional: preview first few
 for it in items[:5]:
     print(f"- {it.get('year')} | {it['title']} ({it.get('venue','')})")

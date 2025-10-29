@@ -1,10 +1,17 @@
 order:
-  - Pure Exploration
-  - Bandits
-  - Reinforcement Learning
-  - Control & System Identification
-  - Optimization
-  - Foundations & Theory
-  - Causality
-  - Generative / Diffusion
-  - General Papers
+- General Deep Learning
+- Conformal Prediction
+- Differential Geometry in Deep Learning
+- Dimensionality Reduction
+- Thompson Sampling
+- Deep Reinforcement Learning
+- Reinforcement Learning
+- Bandit Algorithms
+- Optimization
+- Statistics
+- Probability Modeling & Inference
+- Uncertainty Estimation
+- Statistical Learning
+- Lecture Notes, Books and Courses
+- Blogs
+- Schools
