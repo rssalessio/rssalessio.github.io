@@ -1,0 +1,41 @@
+{% assign entries = include.data %}
+{% assign years = entries | map: "year" | uniq | sort | reverse %}
+
+<!-- Table of contents (years) -->
+<nav class="toc-years" aria-label="Years">
+  {% for y in years %}
+    {% assign count = entries | where: "year", y | size %}
+    <a class="toc-pill" href="#year-{{ y }}">{{ y }} <span class="toc-count">{{ count }}</span></a>
+  {% endfor %}
+</nav>
+
+<div class="table-wrap">
+  <table class="reading-table">
+    <thead>
+      <tr>
+        <th style="width: 6ch;">Year</th>
+        <th>Paper</th>
+        <th style="width: 22%;">Venue</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign sorted = entries | sort: "year" | reverse %}
+      {% assign current_year = "" %}
+      {% for it in sorted %}
+        {% if it.year != current_year %}
+          <tr class="year-anchor"><td id="year-{{ it.year }}" colspan="3"></td></tr>
+          {% assign current_year = it.year %}
+        {% endif %}
+        <tr>
+          <td class="year">{{ it.year }}</td>
+          <td class="title">
+            {% if it.url %}<a href="{{ it.url }}" target="_blank" rel="noopener">{{ it.title }}</a>{% else %}{{ it.title }}{% endif %}
+            {% if it.authors %}<div class="authors">{{ it.authors }}</div>{% endif %}
+            {% if it.topics %}<div class="topics">{{ it.topics | join: ", " }}</div>{% endif %}
+          </td>
+          <td class="venue">{% if it.venue %}{{ it.venue }}{% endif %}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

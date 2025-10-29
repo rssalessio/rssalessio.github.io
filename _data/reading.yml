@@ -1,0 +1,25 @@
+- year: 2025
+  title: "Pure Exploration with Feedback Graphs"
+  authors: "A. Russo, Y. Song, A. Pacchiano"
+  venue: "AISTATS 2025 (PMLR)"
+  url: "https://arxiv.org/abs/2503.07824"
+  topics: ["bandits", "feedback-graphs"]
+  status: "read"
+
+- year: 2024
+  title: "Multi-Reward Best Policy Identification"
+  authors: "A. Russo, F. Vannella, A. Pacchiano"
+  venue: "NeurIPS 2024"
+  url: "https://proceedings.neurips.cc/paper_files/paper/2024/file/bec8b667016a73bb195b611aa1f41026-Paper-Conference.pdf"
+  topics: ["RL", "pure exploration"]
+  status: "read"
+
+- year: 2023
+  title: "Conformal Off-Policy Prediction in Contextual Bandits"
+  authors: "R. Bates et al."
+  venue: "NeurIPS 2023"
+  url: "https://arxiv.org/abs/2210.01043"
+  topics: ["conformal prediction", "bandits"]
+  status: "to-read"
+
+# …continue adding entries from your README
