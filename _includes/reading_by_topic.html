@@ -1,70 +1,68 @@
 {% assign entries = include.data %}
+{% assign sorted = entries | sort: "year" | reverse %}
 
 {%- comment -%}
-Collect all topics from entries (flatten + uniq).
+Build a unique, sorted list of topics (strings) without where_exp.
 {%- endcomment -%}
-{% assign topics_joined = "" %}
+{% capture topics_raw %}{% endcapture %}
 {% for it in entries %}
   {% if it.topics %}
     {% for t in it.topics %}
-      {% assign topics_joined = topics_joined | append: t | append: "||" %}
+      {% capture token %}||{{ t }}||{% endcapture %}
+      {% unless topics_raw contains token %}
+        {% capture topics_raw %}{{ topics_raw }}{{ token }}{% endcapture %}
+      {% endunless %}
     {% endfor %}
   {% endif %}
 {% endfor %}
-{% assign topics = topics_joined | split: "||" | uniq | sort %}
+{% assign topics = topics_raw | split: "||" | uniq | sort %}
 
 {%- comment -%}
-If some entries have no topics, group them under "Misc".
+Detect untagged entries (Misc).
 {%- endcomment -%}
-{% assign untagged = entries | where_exp: "e", "e.topics == nil or e.topics == empty" %}
-{% if untagged.size > 0 %}
-  {% assign misc = "Misc" | split: "|" %}
-  {% assign topics = topics | concat: misc %}
-{% endif %}
+{% assign has_misc = false %}
+{% for it in entries %}
+  {% unless it.topics and it.topics != empty %}
+    {% assign has_misc = true %}
+    {% break %}
+  {% endunless %}
+{% endfor %}
 
 {%- comment -%}
-Respect optional manual order from _data/reading_topics.yml (key: order: []).
-Keeps only topics that actually exist; appends any leftovers alphabetically.
+Optional manual order: if _data/reading_topics.yml provides `order: [...]`,
+use it verbatim (even if some topics end up empty).
 {%- endcomment -%}
 {% if site.data.reading_topics and site.data.reading_topics.order %}
-  {% assign present = topics %}
-  {% assign ordered_joined = "" %}
-  {% for t in site.data.reading_topics.order %}
-    {% if present contains t %}
-      {% assign ordered_joined = ordered_joined | append: t | append: "||" %}
-    {% endif %}
-  {% endfor %}
-  {% for t in present %}
-    {% unless site.data.reading_topics.order contains t %}
-      {% assign ordered_joined = ordered_joined | append: t | append: "||" %}
-    {% endunless %}
-  {% endfor %}
-  {% assign topics = ordered_joined | split: "||" | uniq %}
+  {% assign topics = site.data.reading_topics.order %}
 {% endif %}
 
 <!-- Topic pills -->
 <nav class="toc-topics" aria-label="Topics">
   {% for topic in topics %}
     {% assign anchor = topic | slugify %}
-    {% comment %} Count items in this topic {% endcomment %}
-    {% if topic == "Misc" %}
-      {% assign topic_entries = untagged %}
-    {% else %}
-      {% assign topic_entries = entries | where_exp: "e", "e.topics and e.topics contains topic" %}
-    {% endif %}
-    <a class="toc-pill" href="#topic-{{ anchor }}">{{ topic }} <span class="toc-count">{{ topic_entries.size }}</span></a>
+    {% assign count = 0 %}
+    {% for it in entries %}
+      {% if it.topics and it.topics contains topic %}
+        {% assign count = count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    <a class="toc-pill" href="#topic-{{ anchor }}">{{ topic }} <span class="toc-count">{{ count }}</span></a>
   {% endfor %}
+
+  {% if has_misc %}
+    {% assign misc_count = 0 %}
+    {% for it in entries %}
+      {% unless it.topics and it.topics != empty %}
+        {% assign misc_count = misc_count | plus: 1 %}
+      {% endunless %}
+    {% endfor %}
+    <a class="toc-pill" href="#topic-misc">Misc <span class="toc-count">{{ misc_count }}</span></a>
+  {% endif %}
 </nav>
 
 <!-- One table per topic -->
 {% for topic in topics %}
   {% assign anchor = topic | slugify %}
-  {% if topic == "Misc" %}
-    {% assign topic_entries = untagged %}
-  {% else %}
-    {% assign topic_entries = entries | where_exp: "e", "e.topics and e.topics contains topic" %}
-  {% endif %}
-  {% assign topic_sorted = topic_entries | sort: "year" | reverse %}
 
   <section class="topic-section" id="topic-{{ anchor }}">
     <h2 class="topic-title">{{ topic }}</h2>
@@ -79,27 +77,60 @@ Keeps only topics that actually exist; appends any leftovers alphabetically.
           </tr>
         </thead>
         <tbody>
-          {% for it in topic_sorted %}
-            <tr>
-              <td class="year">{{ it.year }}</td>
-              <td class="title">
-                {% if it.url %}<a href="{{ it.url }}" target="_blank" rel="noopener">{{ it.title }}</a>{% else %}{{ it.title }}{% endif %}
-                {% if it.authors %}<div class="authors">{{ it.authors }}</div>{% endif %}
-                {% if it.topics and it.topics.size > 1 %}
-                  <div class="topics">
-                    {% for t in it.topics %}
-                      {% unless t == topic %}
-                        <a href="#topic-{{ t | slugify }}" class="topic-chip">{{ t }}</a>{% unless forloop.last %}{% endunless %}
-                      {% endunless %}
-                    {% endfor %}
-                  </div>
-                {% endif %}
-              </td>
-              <td class="venue">{% if it.venue %}{{ it.venue }}{% endif %}</td>
-            </tr>
+          {% for it in sorted %}
+            {% if it.topics and it.topics contains topic %}
+              <tr>
+                <td class="year">{{ it.year }}</td>
+                <td class="title">
+                  {% if it.url %}<a href="{{ it.url }}" target="_blank" rel="noopener">{{ it.title }}</a>{% else %}{{ it.title }}{% endif %}
+                  {% if it.authors %}<div class="authors">{{ it.authors }}</div>{% endif %}
+                  {% if it.topics and it.topics.size > 1 %}
+                    <div class="topics">
+                      {% for t in it.topics %}
+                        {% unless t == topic %}
+                          <a href="#topic-{{ t | slugify }}" class="topic-chip">{{ t }}</a>
+                        {% endunless %}
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </td>
+                <td class="venue">{% if it.venue %}{{ it.venue }}{% endif %}</td>
+              </tr>
+            {% endif %}
           {% endfor %}
         </tbody>
       </table>
     </div>
   </section>
 {% endfor %}
+
+{% if has_misc %}
+  <section class="topic-section" id="topic-misc">
+    <h2 class="topic-title">Misc</h2>
+    <div class="table-wrap">
+      <table class="reading-table">
+        <thead>
+          <tr>
+            <th style="width: 6ch;">Year</th>
+            <th>Paper</th>
+            <th style="width: 22%;">Venue</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for it in sorted %}
+            {% unless it.topics and it.topics != empty %}
+              <tr>
+                <td class="year">{{ it.year }}</td>
+                <td class="title">
+                  {% if it.url %}<a href="{{ it.url }}" target="_blank" rel="noopener">{{ it.title }}</a>{% else %}{{ it.title }}{% endif %}
+                  {% if it.authors %}<div class="authors">{{ it.authors }}</div>{% endif %}
+                </td>
+                <td class="venue">{% if it.venue %}{{ it.venue }}{% endif %}</td>
+              </tr>
+            {% endunless %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+{% endif %}
