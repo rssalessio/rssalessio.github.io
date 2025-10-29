@@ -1,7 +1,7 @@
 ---
 layout: homepage
 ---
-<nav class="subnav"><a href="/">Home</a> · <a href="/teaching/">Teaching</a> · <a href="/talks/">Talks & Presentations</a></nav> · <a href="/reading/">Reading List</a></nav>
+<nav class="subnav"><a href="/">Home</a> · <a href="/teaching/">Teaching</a> · <a href="/talks/">Talks & Presentations</a> · <a href="/reading/">Reading List</a></nav>
 
 ## About Me
 

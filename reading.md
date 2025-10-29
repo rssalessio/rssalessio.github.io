@@ -7,6 +7,8 @@ hide_services: true
 hide_news: true
 ---
 
+<nav class="subnav"><a href="/">Home</a> · <a href="/teaching/">Teaching</a> · <a href="/talks/">Talks & Presentations</a> · <a href="/reading/">Reading List</a></nav>
+
 # Reading List
 
 A curated selection of papers and books I’m reading or plan to read.  
