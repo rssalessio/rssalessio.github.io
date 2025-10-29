@@ -632,6 +632,33 @@ footer {
 }
 
 
-@import url(reading.scss);
+/* --- Reading (topic-driven) --- */
+.toc-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 1rem 0 1.25rem;
+}
+.toc-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .3rem .6rem;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: .95rem;
+}
+.toc-pill:hover { background: rgba(0,0,0,.04); }
+.toc-count { font-variant-numeric: tabular-nums; opacity: .65; }
+
+.topic-section { margin: 2rem 0 2.5rem; }
+.topic-title {
+  font-size: 1.35rem;
+  margin: 1.2rem 0 .6rem;
+  scroll-margin-top: 80px; /* nicer anchor jump */
+}
+
+// @import url(reading.scss);
 
 // @import url(scrolltop.scss);
