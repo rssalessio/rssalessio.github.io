@@ -1,996 +1,974 @@
 - year: 2025
   title: Deep Out-of-Distribution Uncertainty Quantification via Weight Entropy Maximization
   url: https://jmlr.org/papers/volume26/23-1359/23-1359.pdf
+  venue: null
   topics:
-  - Uncertainty Estimation
+  - 12. Uncertainty Estimation
 - year: 2025
   title: User-friendly Introduction to PAC-Bayes Bounds
   url: https://arxiv.org/pdf/2110.11216
+  venue: null
   topics:
-  - Statistical Learning
+  - 13. Statistical Learning
 - year: 2024
   title: 'Correlated Proxies: A New Definition and Improved Mitigation for Reward
     Hacking'
   url: https://arxiv.org/pdf/2403.03185
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Constrained / Safe RL
+  - 7. Reinforcement Learning
 - year: 2024
   title: Hypothesis Testing with E-values (Book)
   url: https://www.stat.cmu.edu/~aramdas/ebook-v1.pdf
+  venue: null
   topics:
-  - Lecture Notes, Books and Courses
+  - 14. Lecture Notes, Books and Courses
 - year: 2024
   title: Information Lower Bounds for Robust Mean Estimation
   url: https://arxiv.org/pdf/2403.01892
+  venue: null
   topics:
-  - Statistics
+  - 10. Statistics
 - year: 2024
   title: On Sparsity and Sub-Gaussianity in the Johnson-Lindenstrauss Lemma
   url: https://arxiv.org/pdf/2409.06275
+  venue: null
   topics:
-  - Dimensionality Reduction
+  - 4. Dimensionality Reduction
 - year: 2024
   title: 'Stop Regressing: Training Value Functions via Classification for Scalable
     Deep RL'
   url: https://arxiv.org/pdf/2403.03950v1
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2024
   title: The Bayesian Learning Rule
   url: https://arxiv.org/pdf/2107.04562
+  venue: null
   topics:
-  - Probability Modeling & Inference
+  - 11. Probability Modeling & Inference
 - year: 2023
   title: An Analysis of Quantile Temporal-Difference Learning
   url: https://arxiv.org/pdf/2301.04462.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2023
   title: BACKSTEPPING TEMPORAL DIFFERENCE LEARNING
   url: https://arxiv.org/pdf/2302.09875
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2023
   title: Does Zero-Shot Reinforcement Learning Exist?
   url: https://arxiv.org/pdf/2209.14935.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Zero-Shot RL
+  - 7. Reinforcement Learning
 - year: 2023
   title: Empirical Design in Reinforcement Learning
   url: https://arxiv.org/pdf/2304.01315.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2023
   title: Epistemic Neural Networks
   url: https://arxiv.org/pdf/2107.08924
+  venue: null
   topics:
-  - Uncertainty Estimation
+  - 12. Uncertainty Estimation
 - year: 2023
   title: Quantile Bandits for Best Arms Identification
   url: https://arxiv.org/pdf/2010.11568.pdf
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2023
   title: Semi-Implicit Variational Inference via Score Matching
   url: https://openreview.net/pdf?id=sd90a2ytrt
+  venue: null
   topics:
-  - Probability Modeling & Inference
+  - 11. Probability Modeling & Inference
 - year: 2023
   title: Your diffusion model secretly knows the dimension of the data manifold
   url: https://arxiv.org/pdf/2212.12611.pdf
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 2022
   title: A Review of Off-Policy Evaluation in Reinforcement Learning
   url: https://arxiv.org/pdf/2212.06355.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Off-Policy Evaluation
+  - 7. Reinforcement Learning
 - year: 2022
   title: A Short Note on an Inequality between KL and TV
   url: https://arxiv.org/pdf/2202.07198.pdf
+  venue: null
   topics:
-  - Statistics
+  - 10. Statistics
 - year: 2022
   title: CICERO
   url: https://www.science.org/doi/10.1126/science.ade9097
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Famous Applications
+  - 6. Deep Reinforcement Learning
 - year: 2022
   title: Conformal Off-Policy Prediction in Contextual Bandits
   url: https://arxiv.org/pdf/2206.04405.pdf
+  venue: null
   topics:
-  - Conformal Prediction
+  - 2. Conformal Prediction
 - year: 2022
   title: Conformal Off-Policy Prediction in Contextual Bandits
   url: https://arxiv.org/pdf/2206.04405.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Off-Policy Evaluation
+  - 7. Reinforcement Learning
 - year: 2022
   title: 'Conformal Prediction: a Unified Review of Theory and New Challenges'
   url: https://arxiv.org/pdf/2005.07972.pdf
+  venue: null
   topics:
-  - Conformal Prediction
+  - 2. Conformal Prediction
 - year: 2022
   title: Constrained Variational Policy Optimization for Safe Reinforcement Learning
   url: https://arxiv.org/pdf/2201.11927.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Constrained / Safe RL
+  - 7. Reinforcement Learning
 - year: 2022
   title: 'Ensembles for Uncertainty Estimation: Benefits of Prior Functions and Bootstrapping'
   url: https://arxiv.org/pdf/2206.03633
+  venue: null
   topics:
-  - Uncertainty Estimation
+  - 12. Uncertainty Estimation
 - year: 2022
   title: Exploring through Random Curiosity with General Value Functions
   url: https://arxiv.org/pdf/2211.10282.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Exploration
+  - 6. Deep Reinforcement Learning
 - year: 2022
   title: Regularising Inverse Problems with Generative Machine Learning Models
   url: https://www.ndfcampbell.org/assets/papers/reg_inv_problems.pdf
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 2022
   title: 'SAAC: Safe Reinforcement Learning as an Adversarial Game of Actor-Critics'
   url: https://arxiv.org/pdf/2204.09424.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Constrained / Safe RL
+  - 7. Reinforcement Learning
 - year: 2022
   title: Safety-constrained Reinforcement Learning with a Distributional Safety Critic
   url: https://link.springer.com/article/10.1007/s10994-022-06187-8
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Constrained / Safe RL
+  - 7. Reinforcement Learning
 - year: 2022
   title: Towards Safe Reinforcement Learning via Constraining Conditional Value-at-Risk
   url: https://arxiv.org/pdf/2206.04436.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Constrained / Safe RL
+  - 7. Reinforcement Learning
 - year: 2022
   title: 'TRC: Trust Region Conditional Value at Risk for Safe Reinforcement Learning'
   url: https://ieeexplore.ieee.org/document/9677982
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Constrained / Safe RL
+  - 7. Reinforcement Learning
 - year: 2022
   title: 'Understanding Policy Gradient Algorithms: A Sensitivity-Based Approach'
   url: https://proceedings.mlr.press/v162/wu22i/wu22i.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2022
   title: Why Should I Trust You, Bellman? The Bellman Error is a Poor Replacement
     for Value Error
   url: https://proceedings.mlr.press/v162/fujimoto22a/fujimoto22a.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2021
   title: A Mean-Field Analysis of Two-Player Zero-Sum Games
   url: https://arxiv.org/pdf/2002.06277.pdf
+  venue: null
   topics:
-  - Optimization
-  - Min-Max Optimization
+  - 9. Optimization
 - year: 2021
   title: Adaptive Sampling for Best Policy Identification in MDPs
   url: http://proceedings.mlr.press/v139/marjani21a/marjani21a.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2021
   title: Adversarial Intrinsic Motivation for Reinforcement Learning
   url: https://openreview.net/pdf?id=GYr3qnFKgU
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Goal Conditioned RL
+  - 6. Deep Reinforcement Learning
 - year: 2021
   title: Distilling Robust and Non-Robust Features in Adversarial Examples by Information
     Bottleneck
   url: https://openreview.net/pdf?id=90M-91IZ0JC
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 2021
   title: Enforcing Robust Control Guarantees with Neural Network Policies
   url: https://arxiv.org/pdf/2011.08105.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Stability
+  - 6. Deep Reinforcement Learning
 - year: 2021
   title: 'GMAC: A Distributional Perspective on Actor-Critic Framework'
   url: https://arxiv.org/pdf/2105.11366.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Distributional RL
+  - 6. Deep Reinforcement Learning
 - year: 2021
   title: Hoeffding’s Inequality for General Markov Chains and Its Applications to
     Statistical Learning
   url: https://jmlr.org/papers/v22/19-479.html
+  venue: null
   topics:
-  - Reinforcement Learning
-  - MDPs
+  - 7. Reinforcement Learning
 - year: 2021
   title: Learning One Representation to Optimize All Rewards
   url: https://arxiv.org/pdf/2103.07945.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Zero-Shot RL
+  - 7. Reinforcement Learning
 - year: 2021
   title: 'Learning Successor States and Goal-Dependent Values: A Mathematical Viewpoint'
   url: https://arxiv.org/pdf/2101.07123
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2021
   title: Lecture Notes for Statistics 311/Electrical Engineering 377
   url: https://web.stanford.edu/class/stats311/lecture-notes.pdf
+  venue: null
   topics:
-  - Lecture Notes, Books and Courses
+  - 14. Lecture Notes, Books and Courses
 - year: 2021
   title: Loss landscapes and optimization in over-parameterized non-linear systems
     and neural networks
   url: https://arxiv.org/pdf/2003.00307.pdf
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 2021
   title: Mastering Atari with Discrete World-Models
   url: https://arxiv.org/pdf/2010.02193.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Dreamer Algorithm
+  - 6. Deep Reinforcement Learning
 - year: 2021
   title: Normalizing Flows for Probabilistic Modeling and Inference
   url: https://jmlr.org/papers/volume22/19-1028/19-1028.pdf
+  venue: null
   topics:
-  - Probability Modeling & Inference
+  - 11. Probability Modeling & Inference
 - year: 2021
   title: Regularization in RL, Google
   url: https://rl-vs.github.io/rlvs2021/class-material/regularized_mdp/Regularization_RL_RLVS.pdf
+  venue: null
   topics:
-  - Lecture Notes, Books and Courses
+  - 14. Lecture Notes, Books and Courses
 - year: 2021
   title: 'Sample Complexity of Asynchronous Q-Learning: Sharper Analysis and Variance
     Reduction'
   url: https://arxiv.org/pdf/2006.03041.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2021
   title: SCORE-BASED GENERATIVE MODELING THROUGH STOCHASTIC DIFFERENTIAL EQUATIONS
   url: https://arxiv.org/pdf/2011.13456.pdf
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 2021
   title: 'Slot Machines: Discovering Winning Combinations of Random Weights in Neural
     Networks'
   url: https://arxiv.org/pdf/2101.06475.pdf
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 2021
   title: 'The Limits of Min-Max Optimization Algorithms: Convergence to Spurious Non-Critical
     Sets'
   url: http://proceedings.mlr.press/v139/hsieh21a/hsieh21a-supp.pdf
+  venue: null
   topics:
-  - Optimization
-  - Min-Max Optimization
+  - 9. Optimization
 - year: 2021
   title: The Modern Mathematics of Deep Learning
   url: https://arxiv.org/pdf/2105.04026.pdf
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 2021
   title: The Principles of Deep Learning Theory
   url: https://arxiv.org/pdf/2106.10165.pdf
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 2021
   title: Why flatness correlates with generalization for Deep NN
   url: https://arxiv.org/pdf/2103.06219.pdf
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 2020
   title: A Finite-Time Analysis of Q-Learning with Neural Network Function Approximation
   url: http://proceedings.mlr.press/v119/xu20c/xu20c.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - DQN Convergence
+  - 6. Deep Reinforcement Learning
 - year: 2020
   title: A Theoretic Analysis of DQN
   url: https://arxiv.org/pdf/1901.00137.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - DQN Convergence
+  - 6. Deep Reinforcement Learning
 - year: 2020
   title: A Tutorial on Quantile Estimation via Monte Carlo
   url: https://web.njit.edu/~marvin/papers/qtut-r2.pdf
+  venue: null
   topics:
-  - Statistics
+  - 10. Statistics
 - year: 2020
   title: A Tutorial on Thompson Sampling
   url: https://arxiv.org/pdf/1707.02038.pdf
+  venue: null
   topics:
-  - Thompson Sampling
+  - 5. Thompson Sampling
 - year: 2020
   title: 'CoinDICE: Off-Policy Confidence Interval Estimation'
   url: https://arxiv.org/pdf/2010.11652.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Off-Policy Evaluation
+  - 7. Reinforcement Learning
 - year: 2020
   title: Conformal Prediction Under Covariate Shift
   url: https://arxiv.org/pdf/1904.06019.pdf
+  venue: null
   topics:
-  - Conformal Prediction
+  - 2. Conformal Prediction
 - year: 2020
   title: Contributions to the Optimal Solution of Several Bandit Problems
   url: https://emiliekaufmann.github.io/HDR_EmilieKaufmann.pdf
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2020
   title: Dream to Control
   url: https://arxiv.org/pdf/1912.01603.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Dreamer Algorithm
+  - 6. Deep Reinforcement Learning
 - year: 2020
   title: Fast active learning for pure exploration in reinforcement learning
   url: https://arxiv.org/abs/2007.13442
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2020
   title: Hypermodels for Exploration
   url: https://arxiv.org/pdf/2006.07464.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Exploration
+  - 6. Deep Reinforcement Learning
 - year: 2020
   title: Improved Techniques for Training Score-Based Generative Models
   url: https://arxiv.org/pdf/2006.09011.pdf
+  venue: null
   topics:
-  - Probability Modeling & Inference
+  - 11. Probability Modeling & Inference
 - year: 2020
   title: Neural Contextual Bandits with Deep Representation and Shallow Exploration
   url: https://arxiv.org/pdf/2012.01780.pdf
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2020
   title: Neural Contextual Bandits with UCB-based Exploration
   url: https://arxiv.org/pdf/1911.04462.pdf
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2020
   title: Neural Ordinary Differential Equations on Manifolds
   url: https://arxiv.org/pdf/2006.06663.pdf
+  venue: null
   topics:
-  - Differential Geometry in Deep Learning
+  - 3. Differential Geometry in Deep Learning
 - year: 2020
   title: Neural tangent kernel
   url: https://arxiv.org/pdf/1806.07572.pdf
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 2020
   title: Neural Thompson Sampling
   url: https://arxiv.org/pdf/2010.00827.pdf
+  venue: null
   topics:
-  - Thompson Sampling
+  - 5. Thompson Sampling
 - year: 2020
   title: 'Non-convex Min-Max Optimization: Applications, Challenges, and Recent Theoretical
     Advances'
   url: https://arxiv.org/pdf/2006.08141.pdf
+  venue: null
   topics:
-  - Optimization
-  - Min-Max Optimization
+  - 9. Optimization
 - year: 2020
   title: 'On Function Approximation in Reinforcement Learning: Optimism in the Face
     of Large State Spaces'
   url: https://proceedings.neurips.cc/paper/2020/file/9fa04f87c9138de23e92582b4ce549ec-Paper.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2020
   title: On Gradient Descent Ascent for Nonconvex-Concave Minimax Problems
   url: http://proceedings.mlr.press/v119/lin20a/lin20a.pdf
+  venue: null
   topics:
-  - Optimization
-  - Min-Max Optimization
+  - 9. Optimization
 - year: 2020
   title: On the Convergence of Single-Call Stochastic Extra-Gradient Methods
   url: https://arxiv.org/pdf/1908.08465.pdf
+  venue: null
   topics:
-  - Optimization
-  - Min-Max Optimization
+  - 9. Optimization
 - year: 2020
   title: Planning go explore via self-supervised world models
   url: https://arxiv.org/pdf/2005.05960.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Exploration
+  - 6. Deep Reinforcement Learning
 - year: 2020
   title: Planning to Explore via Supervised World-Models
   url: https://arxiv.org/pdf/2005.05960.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Dreamer Algorithm
+  - 6. Deep Reinforcement Learning
 - year: 2020
   title: Provably Efficient Exploration for Reinforcement Learning Using Unsupervised
     Learning
   url: https://arxiv.org/pdf/2003.06898.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2020
   title: Robust Reinforcement Learning via Adversarial Training with Langevin Dynamics
   url: https://arxiv.org/pdf/2002.06063.pdf
+  venue: null
   topics:
-  - Optimization
-  - Min-Max Optimization
+  - 9. Optimization
 - year: 2020
   title: Sample-Based Distributional Policy Gradient
   url: https://arxiv.org/pdf/2001.02652.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Distributional RL
+  - 6. Deep Reinforcement Learning
 - year: 2020
   title: 'Stochastic Neighbor Embedding with Gaussian and Student-t Distributions:
     Tutorial and Survey'
   url: https://arxiv.org/pdf/2009.10301.pdf
+  venue: null
   topics:
-  - Dimensionality Reduction
+  - 4. Dimensionality Reduction
 - year: 2019
   title: Benchmarking Safe Exploration in Deep Reinforcement Learning
   url: https://cdn.openai.com/safexp-short.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Constrained / Safe RL
+  - 7. Reinforcement Learning
 - year: 2019
   title: Conformalized Quantile Regression
   url: https://proceedings.neurips.cc/paper/2019/file/5103c3584b063c431bd1268e9b5e76fb-Paper.pdf
+  venue: null
   topics:
-  - Conformal Prediction
+  - 2. Conformal Prediction
 - year: 2019
   title: Deep ReLU network approximation of functions on a manifold
   url: https://arxiv.org/pdf/1908.00695.pdf
+  venue: null
   topics:
-  - Differential Geometry in Deep Learning
+  - 3. Differential Geometry in Deep Learning
 - year: 2019
   title: Diffeomorphic Learning
   url: https://arxiv.org/pdf/1806.01240.pdf
+  venue: null
   topics:
-  - Differential Geometry in Deep Learning
+  - 3. Differential Geometry in Deep Learning
 - year: 2019
   title: Efficient Approximation of Deep ReLU Networks for Functions on Low Dimensional
     Manifolds
   url: https://proceedings.neurips.cc/paper/2019/file/fd95ec8df5dbeea25aa8e6c808bad583-Paper.pdf
+  venue: null
   topics:
-  - Differential Geometry in Deep Learning
+  - 3. Differential Geometry in Deep Learning
 - year: 2019
   title: Learning Latent Dynamics from Pixels
   url: https://arxiv.org/pdf/1811.04551.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Dreamer Algorithm
+  - 6. Deep Reinforcement Learning
 - year: 2019
   title: Provably Efficient Reinforcement Learning with Linear Function Approximation
   url: https://arxiv.org/pdf/1907.05388.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2019
   title: Q-learning with UCB Exploration is Sample Efficient for Infinite-Horizon
     MDP
   url: https://arxiv.org/pdf/1901.09311.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2019
   title: 'Revisiting the Softmax Bellman Operator: New Benefits and New Perspective'
   url: https://arxiv.org/pdf/1812.00456.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2019
   title: Safe Testing
   url: https://arxiv.org/abs/1906.07801
+  venue: null
   topics:
-  - Statistics
+  - 10. Statistics
 - year: 2019
   title: Statistics and Samples in Distributional Reinforcement Learning
   url: https://arxiv.org/pdf/1902.08102.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Distributional RL
+  - 6. Deep Reinforcement Learning
 - year: 2019
   title: Towards Characterizing Divergence in Deep Q-Learning
   url: https://arxiv.org/pdf/1903.08894.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - DQN Convergence
+  - 6. Deep Reinforcement Learning
 - year: 2019
   title: Variational Approximations using Fisher Divergence
   url: https://arxiv.org/pdf/1905.05284.pdf
+  venue: null
   topics:
-  - Probability Modeling & Inference
+  - 11. Probability Modeling & Inference
 - year: 2018
   title: Adaptive Sampling for Policy Identification
   url: https://arxiv.org/pdf/2009.13405.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2018
   title: 'Breaking the Curse of Horizon: Infinite-Horizon Off-Policy Estimation'
   url: https://arxiv.org/pdf/1810.12429.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Off-Policy Evaluation
+  - 7. Reinforcement Learning
 - year: 2018
   title: Control-Theoretic Analysis of Smoothness for Stability-Certified Reinforcement
     Learning
   url: https://lavaei.ieor.berkeley.edu/RL_1_2018.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Stability
+  - 6. Deep Reinforcement Learning
 - year: 2018
   title: Deep Contextual Multi-armed Bandits
   url: https://arxiv.org/pdf/1807.09809.pdf
+  venue: null
   topics:
-  - Thompson Sampling
+  - 5. Thompson Sampling
 - year: 2018
   title: Deep Reinforcement Learning that Matters
   url: https://ojs.aaai.org/index.php/AAAI/article/download/11694/11553
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2018
   title: Distributed Distributional Deterministic Policy Gradients
   url: https://arxiv.org/pdf/1804.08617.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Distributional RL
+  - 6. Deep Reinforcement Learning
 - year: 2018
   title: 'DORA The Explorer: Directed Outreaching Reinforcement Action-Selection'
   url: https://arxiv.org/abs/1804.04012
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Exploration
+  - 6. Deep Reinforcement Learning
 - year: 2018
   title: Equivalence Between Policy Gradients and Soft Q-Learning
   url: https://arxiv.org/pdf/1704.06440.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Soft Q Learning Theory
+  - 6. Deep Reinforcement Learning
 - year: 2018
   title: Finding Mixed Nash Equilibria of Generative Adversarial Networks
   url: https://arxiv.org/pdf/1811.02002.pdf
+  venue: null
   topics:
-  - Optimization
-  - Min-Max Optimization
+  - 9. Optimization
 - year: 2018
   title: Is Q-learning Provably Efficient?
   url: https://arxiv.org/pdf/1807.03765.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2018
   title: 'Lipschitz regularity of deep neural networks: analysis and efficient estimation'
   url: https://papers.nips.cc/paper/2018/file/d54e99a6c03704e95e6965532dec148b-Paper.pdf
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 2018
   title: Semi-Implicit Variational Inference
   url: https://arxiv.org/pdf/1805.11183.pdf
+  venue: null
   topics:
-  - Probability Modeling & Inference
+  - 11. Probability Modeling & Inference
 - year: 2018
   title: 'Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning
     with a Stochastic Actor'
   url: https://arxiv.org/pdf/1801.01290.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Algorithms
+  - 6. Deep Reinforcement Learning
 - year: 2018
   title: 'Variational Inference: A Review for Statisticians'
   url: https://arxiv.org/abs/1601.00670
+  venue: null
   topics:
-  - Probability Modeling & Inference
+  - 11. Probability Modeling & Inference
 - year: 2017
   title: '#Exploration: A Study of Count-Based Exploration for Deep Reinforcement'
   url: https://arxiv.org/pdf/1611.04717.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Exploration
+  - 6. Deep Reinforcement Learning
 - year: 2017
   title: Constrained Policy Optimization
   url: https://arxiv.org/pdf/1705.10528.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Constrained / Safe RL
+  - 7. Reinforcement Learning
 - year: 2017
   title: Reinforcement Learning with Deep Energy-Based Policies
   url: https://arxiv.org/pdf/1702.08165.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Algorithms
+  - 6. Deep Reinforcement Learning
 - year: 2017
   title: Risk-Constrained Reinforcement Learning with Percentile Risk Criteria
   url: https://arxiv.org/pdf/1512.01629.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Constrained / Safe RL
+  - 7. Reinforcement Learning
 - year: 2017
   title: Variational Hamiltonian Monte Carlo via Score Matching
   url: https://arxiv.org/pdf/1602.02219.pdf
+  venue: null
   topics:
-  - Probability Modeling & Inference
+  - 11. Probability Modeling & Inference
 - year: 2017
   title: Zero-Shot Task Generalization with Multi-Task Deep Reinforcement Learning
   url: http://proceedings.mlr.press/v70/oh17a/oh17a.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Zero-Shot RL
+  - 7. Reinforcement Learning
 - year: 2016
   title: 'Deep Bandits Show-Off: Simple and Efficient Exploration with Deep Networks'
   url: https://proceedings.neurips.cc/paper/2016/file/abd815286ba1007abfbb8415b83ae2cf-Paper.pdf
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2016
   title: Deep nets for local manifold learning
   url: https://arxiv.org/pdf/1607.07110.pdf
+  venue: null
   topics:
-  - Differential Geometry in Deep Learning
+  - 3. Differential Geometry in Deep Learning
 - year: 2016
   title: 'Explore First, Exploit Next: The True Shape of Regret in Bandit Problems'
   url: https://arxiv.org/abs/1602.07182
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2016
   title: Learning the Variance of the Reward-To-Go
   url: https://jmlr.org/papers/volume17/14-335/14-335.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2016
   title: Optimal Best Arm Identification with Fixed Confidence
   url: https://arxiv.org/pdf/1602.04589.pdf
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2016
   title: Unifying Count-Based Exploration and Intrinsic Motivation
   url: https://arxiv.org/pdf/1606.01868.pdf
+  venue: null
   topics:
-  - Deep Reinforcement Learning
-  - Exploration
+  - 6. Deep Reinforcement Learning
 - year: 2015
   title: A Comprehensive Survey on Safe Reinforcement Learning
   url: https://www.jmlr.org/papers/volume16/garcia15a/garcia15a.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Constrained / Safe RL
+  - 7. Reinforcement Learning
 - year: 2015
   title: High Confidence Off-Policy Evaluation
   url: https://people.cs.umass.edu/~pthomas/papers/Thomas2015.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Off-Policy Evaluation
+  - 7. Reinforcement Learning
 - year: 2015
   title: High Confidence Policy Improvement
   url: https://people.cs.umass.edu/~pthomas/papers/Thomas2015b.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Off-Policy Evaluation
+  - 7. Reinforcement Learning
 - year: 2015
   title: Parametric nonlinear dimensionality reduction using kernel t-SNE
   url: https://core.ac.uk/download/pdf/20074835.pdf
+  venue: null
   topics:
-  - Dimensionality Reduction
+  - 4. Dimensionality Reduction
 - year: 2015
   title: Rademacher Complexities and VC Dimension
   url: http://www.cs.cmu.edu/~hanxiaol/slides/rademacher_vc_hanxiaol.pdf
+  venue: null
   topics:
-  - Lecture Notes, Books and Courses
+  - 14. Lecture Notes, Books and Courses
 - year: 2015
   title: 'Risk-Sensitive and Robust Decision-Making: a CVaR Optimization Approach'
   url: https://arxiv.org/pdf/1506.02188.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Constrained / Safe RL
+  - 7. Reinforcement Learning
 - year: 2015
   title: Variance-Constrained Actor-Critic Algorithms for Discounted and Average Reward
     MDPs
   url: https://arxiv.org/pdf/1403.6530.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Constrained / Safe RL
+  - 7. Reinforcement Learning
 - year: 2015
   title: Weight Uncertainty in Neural Networks
   url: https://arxiv.org/pdf/1505.05424.pdf
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 2013
   title: An Introduction to Stochastic Approximation
   url: http://rcombes.supelec.free.fr/pdf/lecture_stoch_approx.pdf
+  venue: null
   topics:
-  - Lecture Notes, Books and Courses
+  - 14. Lecture Notes, Books and Courses
 - year: 2013
   title: Auto-Encoding Variational Bayes
   url: https://arxiv.org/pdf/1312.6114.pdf
+  venue: null
   topics:
-  - Probability Modeling & Inference
+  - 11. Probability Modeling & Inference
 - year: 2013
   title: Stochastic Variational Inference
   url: https://jmlr.org/papers/volume14/hoffman13a/hoffman13a.pdf
+  venue: null
   topics:
-  - Probability Modeling & Inference
+  - 11. Probability Modeling & Inference
 - year: 2012
   title: Concentration Inequalities for Order Statistics
   url: https://arxiv.org/pdf/1207.7209.pdf
+  venue: null
   topics:
-  - Statistics
+  - 10. Statistics
 - year: 2012
   title: Policy Gradients with Variance Related Risk Criteria
   url: https://arxiv.org/pdf/1206.6404.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2011
   title: 'Online Least Squares Estimation with Self-Normalized Processes: An Application
     to Bandit Problems'
   url: https://arxiv.org/pdf/1102.2670.pdf
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2011
   title: Pure exploration in finitely-armed and continuous-armed bandits
   url: http://sbubeck.com/BMS--TCS09.pdf
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2010
   title: Best Arm Identification in Multi-Armed Bandits
   url: http://sbubeck.com/COLT10_ABM.pdf
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2009
   title: Agnostic Online Learning
   url: https://www.cs.huji.ac.il/~shais/papers/BendavidPalShalevtech09.pdf
+  venue: null
   topics:
-  - Statistical Learning
+  - 13. Statistical Learning
 - year: 2009
   title: An Analysis of Reinforcement Learning with Function Approximation
   url: http://icml2008.cs.helsinki.fi/papers/652.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2009
   title: Learning a Parametric Embedding by Preserving Local Structure
   url: http://proceedings.mlr.press/v5/maaten09a/maaten09a.pdf
+  venue: null
   topics:
-  - Dimensionality Reduction
+  - 4. Dimensionality Reduction
 - year: 2009
   title: Subgradient Methods for Saddle-Point Problems
   url: https://link.springer.com/article/10.1007/s10957-009-9522-7
+  venue: null
   topics:
-  - Optimization
-  - Min-Max Optimization
+  - 9. Optimization
 - year: 2008
   title: An Analysis of Model-Based Interval Estimation for Markov Decision Processes
   url: https://www.sciencedirect.com/science/article/pii/S0022000008000767
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2008
   title: Graphical Models, Exponential Families, and Variational Inference, Wainwright
     and Jordan
   url: https://people.eecs.berkeley.edu/~wainwrig/Papers/WaiJor08_FTML.pdf
+  venue: null
   topics:
-  - Lecture Notes, Books and Courses
+  - 14. Lecture Notes, Books and Courses
 - year: 2006
   title: PAC Model-Free Reinforcement Learning
   url: https://cseweb.ucsd.edu/~ewiewior/06efficient.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2006
   title: System Identification and the Limits of Learning from Data
   url: https://marco-campi.unibs.it/pdf-pszip/sys-id-and-limits-learning.pdf
+  venue: null
   topics:
-  - Lecture Notes, Books and Courses
+  - 14. Lecture Notes, Books and Courses
 - year: 2005
   title: Algorithmic Learning in a Random World
   url: https://link.springer.com/book/10.1007/b106715
+  venue: null
   topics:
-  - Conformal Prediction
+  - 2. Conformal Prediction
 - year: 2005
   title: Estimation of Non-Normalized Statistical Models by Score Matching
   url: https://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf
+  venue: null
   topics:
-  - Probability Modeling & Inference
+  - 11. Probability Modeling & Inference
 - year: 2004
   title: Bias and Variance in Value Function Estimation
   url: https://icml.cc/Conferences/2004/proceedings/papers/248.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2002
   title: Finite-time Analysis of the Multiarmed Bandit Problem
   url: https://homes.di.unimi.it/~cesabian/Pubblicazioni/ml-02.pdf
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2002
   title: THE NONSTOCHASTIC MULTIARMED BANDIT PROBLEM∗
   url: http://rob.schapire.net/papers/AuerCeFrSc01.pdf
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2002
   title: Using Confidence Bounds for Exploitation-Exploration Trade-offs
   url: https://www.jmlr.org/papers/volume3/auer02a/auer02a.pdf
+  venue: null
   topics:
-  - Bandit Algorithms
+  - 8. Bandit Algorithms
 - year: 2001
   title: Convergence of Optimistic and Incremental Q-Learning
   url: https://proceedings.neurips.cc/paper/2001/file/6f2688a5fce7d48c8d19762b88c32c3b-Paper.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2001
   title: TD Algorithm for the Variance of Return and Mean-Variance Reinforcement Learning
   url: https://www.jstage.jst.go.jp/article/tjsai/16/3/16_3_353/_pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2000
   title: Convergence Results for Single-Step On-Policy Reinforcement-Learning Algorithms
   url: https://link.springer.com/content/pdf/10.1023/A:1007678930559.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 2000
   title: Eligibility Traces for Off-Policy Policy Evaluation
   url: https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1079&context=cs_faculty_pubs
+  venue: null
   topics:
-  - Reinforcement Learning
-  - Off-Policy Evaluation
+  - 7. Reinforcement Learning
 - year: 1998
   title: Efficient BackProp
   url: http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+  venue: null
   topics:
-  - General Deep Learning
+  - 1. General Deep Learning
 - year: 1996
   title: Importance Sampling for Monte Carlo Estimation of Quantiles
   url: https://web.stanford.edu/~glynn/papers/1996/G96.pdf
+  venue: null
   topics:
-  - Statistics
+  - 10. Statistics
 - year: 1993
   title: Convergence of Stochastic Iterative Dynamic Programming Algorithms
   url: https://proceedings.neurips.cc/paper/1993/file/5807a685d1a9ab3b599035bc566ce2b9-Paper.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 1992
   title: Reinforcement Learning Applied to Linear Quadratic Regulation
   url: https://papers.nips.cc/paper/1992/file/19bc916108fc6938f52cb96f7e087941-Paper.pdf
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
+  - 7. Reinforcement Learning
 - year: 1987
   title: Better Bootstrap Confidence Intervals
   url: https://www.jstor.org/stable/2289144
+  venue: null
   topics:
-  - Statistics
+  - 10. Statistics
 - year: 1982
   title: Some Methods for Testing the Homogeneity of Rainfall Records
   url: https://www.sciencedirect.com/science/article/pii/002216948290066X
+  venue: null
   topics:
-  - Statistics
+  - 10. Statistics
 - year: 1982
   title: The Variance of Discounted Markov Decision Processes
   url: https://www.jstor.org/stable/3213832
+  venue: null
   topics:
-  - Reinforcement Learning
-  - General Papers
-- year: null
-  title: '15.097 at MIT, Prediction: Machine Learning and Statistics'
-  url: http://ocw.mit.edu/courses/sloan-school-of-management/15-097-prediction-machine-learning-and-statistics-spring-2012/
-  topics:
-  - Lecture Notes, Books and Courses
-- year: null
-  title: Bandit Algorithms
-  url: https://tor-lattimore.com/downloads/book/book.pdf
-  topics:
-  - Lecture Notes, Books and Courses
-- year: null
-  title: 'CS 6789: Foundations of Reinforcement Learning'
-  url: https://wensun.github.io/CS6789.html
-  topics:
-  - Lecture Notes, Books and Courses
-- year: null
-  title: CS234 at Stanford University, Reinforcement Learning
-  url: http://web.stanford.edu/class/cs234/index.html
-  topics:
-  - Lecture Notes, Books and Courses
-- year: null
-  title: CS285 at UC Berkeley, Deep Reinforcement Learning
-  url: http://rail.eecs.berkeley.edu/deeprlcourse/
-  topics:
-  - Lecture Notes, Books and Courses
-- year: null
-  title: Deep Learning, Goodfellow et al., 2016
-  url: https://www.deeplearningbook.org
-  topics:
-  - Lecture Notes, Books and Courses
-- year: null
-  title: Deep Reinforcement Learning Doesn't Work Yet
-  url: https://www.alexirpan.com/2018/02/14/rl-hard.html
-  topics:
-  - Blogs
-- year: null
-  title: Distill's Publication on Feature Visualization
-  url: https://distill.pub/2017/feature-visualization/
-  topics:
-  - Blogs
-- year: null
-  title: 'Lil''Log: Blog on Machine Learning'
-  url: https://lilianweng.github.io/lil-log/
-  topics:
-  - Blogs
-- year: null
-  title: List of algorithms
-  url: https://lilianweng.github.io/lil-log/2018/04/08/policy-gradient-algorithms.html
-  topics:
-  - Deep Reinforcement Learning
-  - Algorithms
-- year: null
-  title: Machine Learning Schools
-  url: https://github.com/sshkhr/awesome-mlss
-  topics:
-  - Schools
-- year: 2012
-  title: 'Machine Learning: A Probabilistic Perspective, Murphy, 2012'
-  url: https://www.cs.ubc.ca/~murphyk/MLbook/
-  topics:
-  - Lecture Notes, Books and Courses
-- year: null
-  title: Math Unipd - Vargiolu
-  url: https://www.math.unipd.it/~vargiolu/home/link.html
-  topics:
-  - Schools
-- year: null
-  title: Prairie Summer School
-  url: https://project.inria.fr/paiss/
-  topics:
-  - Schools
-- year: null
-  title: 'Probability Theory: The Logic of Science, E. T. Jaynes, 2003'
-  url: https://www.amazon.com/Probability-Theory-Science-T-Jaynes/dp/0521592712
-  topics:
-  - Lecture Notes, Books and Courses
-- year: null
-  title: 'Reinforcement Learning: An Introduction'
-  url: http://incompleteideas.net/book/the-book.html
-  topics:
-  - Lecture Notes, Books and Courses
-- year: null
-  title: RL Book Theory
-  url: https://rltheorybook.github.io/
-  topics:
-  - Lecture Notes, Books and Courses
-- year: null
-  title: School of Mathematics, UniPr
-  url: http://www.smi-math.unipr.it/perugia-2021/15/
-  topics:
-  - Schools
-- year: null
-  title: The Elements of Statistical Learning, Hastie, Tibshirani, and Friedman, 2009
-  url: https://web.stanford.edu/~hastie/ElemStatLearn
-  topics:
-  - Lecture Notes, Books and Courses
+  - 7. Reinforcement Learning
