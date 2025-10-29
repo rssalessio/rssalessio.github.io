@@ -1,5 +1,5 @@
-/* --- Reading (topic-driven) --- */
-.toc-topics {
+/* --- Reading list styles (topics) --- */
+.toc-topics, .toc-years {
   display: flex;
   flex-wrap: wrap;
   gap: .5rem;
@@ -16,13 +16,9 @@
   font-size: .95rem;
 }
 .toc-pill:hover { background: rgba(0,0,0,.04); }
-.toc-count { font-variant-numeric: tabular-nums; opacity: .65; }
-
-.topic-section { margin: 2rem 0 2.5rem; }
-.topic-title {
-  font-size: 1.35rem;
-  margin: 1.2rem 0 .6rem;
-  scroll-margin-top: 80px; /* nicer anchor jump */
+.toc-count {
+  font-variant-numeric: tabular-nums;
+  opacity: .65;
 }
 
 .table-wrap { overflow-x: auto; }
@@ -37,10 +33,16 @@
   vertical-align: top;
 }
 .reading-table tr:hover { background: rgba(0,0,0,.03); }
-.reading-table .year { font-variant-numeric: tabular-nums; color: #666; white-space: nowrap; }
+.reading-table .year {
+  font-variant-numeric: tabular-nums;
+  color: #666;
+  white-space: nowrap;
+}
 .reading-table .authors { margin-top: .15rem; font-size: .9rem; color: #666; }
+.reading-table .topics { margin-top: .15rem; font-size: .85rem; opacity: .8; }
 .reading-table .venue { color: #333; }
 
+/* cross-topic chips under each paper */
 .topic-chip {
   display: inline-block;
   padding: .05rem .4rem;
@@ -53,6 +55,12 @@
   opacity: .85;
 }
 .topic-chip:hover { background: rgba(0,0,0,.04); }
+
+/* optional: nicer anchor jump spacing for section titles */
+.topic-title { scroll-margin-top: 80px; }
+
+/* legacy from year-anchored table (harmless if kept) */
+.year-anchor td { padding: 0; border: 0; }
 
 @media (max-width: 680px) {
   .reading-table th:nth-child(3),

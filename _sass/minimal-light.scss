@@ -632,8 +632,10 @@ footer {
 }
 
 
+// @import url(scrolltop.scss);
 /* --- Reading list styles --- */
-.toc-years {
+/* --- Reading list styles (topics) --- */
+.toc-topics, .toc-years {
   display: flex;
   flex-wrap: wrap;
   gap: .5rem;
@@ -675,6 +677,25 @@ footer {
 .reading-table .authors { margin-top: .15rem; font-size: .9rem; color: #666; }
 .reading-table .topics { margin-top: .15rem; font-size: .85rem; opacity: .8; }
 .reading-table .venue { color: #333; }
+
+/* cross-topic chips under each paper */
+.topic-chip {
+  display: inline-block;
+  padding: .05rem .4rem;
+  margin-top: .15rem;
+  margin-right: .25rem;
+  border-radius: .5rem;
+  border: 1px solid rgba(0,0,0,.1);
+  font-size: .8rem;
+  text-decoration: none;
+  opacity: .85;
+}
+.topic-chip:hover { background: rgba(0,0,0,.04); }
+
+/* optional: nicer anchor jump spacing for section titles */
+.topic-title { scroll-margin-top: 80px; }
+
+/* legacy from year-anchored table (harmless if kept) */
 .year-anchor td { padding: 0; border: 0; }
 
 @media (max-width: 680px) {
