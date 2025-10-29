@@ -1,0 +1,40 @@
+<button id="scrollTop" class="scroll-top" type="button"
+  aria-label="Back to top" title="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <path d="M12 5l-7 7h4v7h6v-7h4z"/>
+  </svg>
+</button>
+
+<script>
+(function () {
+  var btn = document.getElementById('scrollTop');
+  if (!btn) return;
+
+  var revealAt = 320; // px scrolled before showing
+  var ticking = false;
+
+  function onScroll() {
+    if (!ticking) {
+      window.requestAnimationFrame(function () {
+        if (window.pageYOffset > revealAt) {
+          btn.classList.add('is-visible');
+        } else {
+          btn.classList.remove('is-visible');
+        }
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  btn.addEventListener('click', function () {
+    try { window.scrollTo({ top: 0, behavior: 'smooth' }); }
+    catch (e) { window.scrollTo(0, 0); }
+  });
+})();
+</script>
+
+<noscript><a href="#" class="scroll-top noscript">↑ Top</a></noscript>
