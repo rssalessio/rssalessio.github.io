@@ -10,12 +10,6 @@ text = md_path.read_text(encoding="utf-8", errors="ignore")
 lines = text.splitlines()
 
 # --- Regexes ---
-h2_re = re.compile(r"^##\s+(.+?)\s*$")
-h3_re = re.compile(r"^###\s+(.+?)\s*$")
-bullet_re = re.compile(r"^\s*[-*]\s+(.+)$")
-year_start_re = re.compile(r"^\s*(?:\*\*)?(\d{4})(?:\*\*)?\s*:?\s*", re.UNICODE)
-link_re = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
-
 def clean_header(s: str) -> str:
     # remove leading enumeration like "7.", "12)", "1 .", etc.
     s = re.sub(r"^\s*\d+\s*[\.\)]\s*", "", s)
@@ -24,15 +18,17 @@ def clean_header(s: str) -> str:
 h2_re = re.compile(r"^##\s+(.+?)\s*$")
 h3_re = re.compile(r"^###\s+(.+?)\s*$")
 
-topic = None
-subtopic = None
-items = []
+bullet_re = re.compile(r"^\s*[-*]\s+(.+)$")
+year_start_re = re.compile(r"^\s*(?:\*\*)?(\d{4})(?:\*\*)?\s*:?\s*", re.UNICODE)
+link_re = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 
+topic = None      # from ## headers (your high-level topics)
+subtopic = None   # from ### headers (optional)
+items = []
 seen = set()
 
-
-
 for raw in lines:
+    # Track topics/subtopics
     m2 = h2_re.match(raw)
     if m2:
         topic = clean_header(m2.group(1))
