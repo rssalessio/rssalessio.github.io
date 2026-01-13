@@ -1,4 +1,17 @@
 # Newest first or use the 'date' field and we'll sort.
+
+- date: 2026-01-15         # machine date (for sorting)
+  label: Jan. 2026         # what you want to display inside [ ... ]
+  content: >-
+    I will give a talkat the Divison of Systems and Control, Uppsala University, on Active Exploration and my latest paper ICPE!
+
+- date: 2025-12-17         # machine date (for sorting)
+  label: Dec. 2025         # what you want to display inside [ ... ]
+  content: >-
+    I will give a talk at DEIB, in Milan, on Active Exploration! Check [here for more details](https://www.deib.polimi.it/eng/events/details/3341)
+
+
+
 - date: 2025-10-13         # machine date (for sorting)
   label: Oct. 2025         # what you want to display inside [ ... ]
   content: >-
