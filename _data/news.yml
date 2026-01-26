@@ -1,5 +1,10 @@
 # Newest first or use the 'date' field and we'll sort.
 
+- date: 2026-01-26         # machine date (for sorting)
+  label: Jan. 2026         # what you want to display inside [ ... ]
+  content: >-
+    [In-Context Learning for Pure Exploration](https://arxiv.org/pdf/2506.01876) has been accepted to **ICLR 2026** (Rio de Janeiro, Brazil)!
+
 - date: 2026-01-15         # machine date (for sorting)
   label: Jan. 2026         # what you want to display inside [ ... ]
   content: >-

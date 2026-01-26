@@ -12,13 +12,13 @@ main:
 
   - title: "In-Context Learning for Pure Exploration"
     authors: <strong>Alessio Russo*</strong>, Ryan Welch*, Aldo Pacchiano
-    conference_short: Arxiv
-    conference: <strong>Arxiv</strong>
+    conference_short: ICLR
+    conference: <strong>ICLR</strong>, 2026.
     pdf: https://arxiv.org/pdf/2506.01876
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/icpeexplore.png
-    notes: Under Review
+    notes: Accepted
 
   - title: "Adaptive Exploration for Multi-Reward Multi-Policy Evaluation"
     authors: <strong>Alessio Russo</strong>, Aldo Pacchiano
