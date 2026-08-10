@@ -1,13 +1,13 @@
 main:
 
-  - title: "In-Context Pure Exploration in Continuous Decision Spaces"
+  - title: In-Context Pure Exploration in Continuous Decision Spaces"
     authors:  <strong>Alessio Russo</strong>, Yin-Ching Lee, Ryan Welch, Aldo Pacchiano
     conference_short: Arxiv
     conference: <strong>Arxiv preprint</strong>, 2026.
-    pdf: https://arxiv.org/pdf/2002.06772
+    pdf: https://arxiv.org/abs/2602.17976
     # code: github.com/danielefoffano/Receding-Horizon-Control-via-Drifting-Models
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/adv_diffusion.png
+    image: ./assets/img/icpe_continuous.png
     notes: Preprint
 
   - title: "Non-Asymptotic Best Policy Identification Guarantees in Online Reinforcement Learning"
@@ -17,7 +17,7 @@ main:
     pdf: https://arxiv.org/abs/2607.17201
     # code: github.com/danielefoffano/Receding-Horizon-Control-via-Drifting-Models
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/adv_diffusion.png
+    image: ./assets/img/nonasymp_bpi.png
     notes: Preprint
 
   - title: "A Diffusion Approximation for Temporal-Difference Learning with Linear Features under Markovian Noise"
@@ -27,18 +27,9 @@ main:
     pdf: https://arxiv.org/abs/2606.18183
     # code: github.com/danielefoffano/Receding-Horizon-Control-via-Drifting-Models
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/adv_diffusion.png
+    image: ./assets/img/sde_td.png
     notes: Preprint
 
-  - title: "A Diffusion Approximation for Temporal-Difference Learning with Linear Features under Markovian Noise"
-    authors: Mattia Forzo, <strong>Alessio Russo</strong>, Enea Monzio Compagnoni, Aldo Pacchiano
-    conference_short: Arxiv
-    conference: <strong>Arxiv preprint</strong>, 2026.
-    pdf: https://arxiv.org/abs/2606.18183
-    # code: github.com/danielefoffano/Receding-Horizon-Control-via-Drifting-Models
-    # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/adv_diffusion.png
-    notes: Preprint
   
   - title: "Receding-Horizon Control via Drifting Models"
     authors: Daniele Foffano, <strong>Alessio Russo</strong>, Alexandre Proutiere
@@ -47,7 +38,7 @@ main:
     pdf: https://arxiv.org/abs/2604.04528
     code: github.com/danielefoffano/Receding-Horizon-Control-via-Drifting-Models
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/adv_diffusion.png
+    image: ./assets/img/drift_mpc.png
     notes: Preprint
 
   - title: "Adversarial Diffusion for Robust Reinforcement Learning"
