@@ -1,5 +1,15 @@
 # Newest first or use the 'date' field and we'll sort.
 
+- date: 2026-08-10         # machine date (for sorting)
+  label: Aug. 2026         # what you want to display inside [ ... ]
+  content: >-
+    Next week I will start a new position at Amazon Robotics in Boston, where I will work on Reinforcement Learning and Decision Making for Robotics. I am very excited to join the team and start this new adventure!
+
+- date: 2026-07-26         # machine date (for sorting)
+  label: Jul. 2026         # what you want to display inside [ ... ]
+  content: >-
+    I went to ICML, where I gave an oral presentation on [**In-Context Learning for Pure Exploration in Continuous Decision Spaces**](https://arxiv.org/pdf/2002.06772). I also presented several posters on my other works, including [**Non-Asymptotic Best Policy Identification Guarantees in Online Reinforcement Learning**](https://arxiv.org/abs/2607.17201), [**ICMAPE: In-Context Multiagent Pure Exploration**](https://openreview.net/pdf?id=CrdVtFSFdz), [**Future Information-Directed Sampling for Bayesian Nonstationary Bandits**](https://openreview.net/pdf?id=keDyUowoQE), [**A Diffusion Approximation for Temporal-Difference Learning with Linear Features under Markovian Noise**](https://arxiv.org/abs/2606.18183) and [**Receding-Horizon Control via Drifting Models**](https://arxiv.org/abs/2604.04528). 
+
 - date: 2026-01-26         # machine date (for sorting)
   label: Jan. 2026         # what you want to display inside [ ... ]
   content: >-
@@ -21,7 +31,7 @@
   label: Oct. 2025         # what you want to display inside [ ... ]
   content: >-
     I was awarded the [**NCCR Research Fellowship 2025**](https://nccr-automation.ch/). 
-    I will spend a few months visiting the lab of [**Prof. Krause**](https://las.inf.ethz.ch/krausea) at **ETH**.
+    I will spend a few months visiting the lab of [**Prof. Krause**](https://las.inf.ethz.ch/krausea) at **ETH** from February to April.
 
 
 
