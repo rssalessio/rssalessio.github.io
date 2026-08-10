@@ -8,12 +8,12 @@
 - date: 2026-07-26         # machine date (for sorting)
   label: Jul. 2026         # what you want to display inside [ ... ]
   content: >-
-    I went to ICML, where I gave an oral presentation on [**In-Context Pure Exploration in Continuous Decision Spaces**](https://arxiv.org/abs/2602.17976). I also presented several posters on my other works, including:
-    - [**Non-Asymptotic Best Policy Identification Guarantees in Online Reinforcement Learning**](https://arxiv.org/abs/2607.17201)
-    - [**ICMAPE: In-Context Multiagent Pure Exploration**](https://openreview.net/pdf?id=CrdVtFSFdz)
-    - [**Future Information-Directed Sampling for Bayesian Nonstationary Bandits**](https://openreview.net/pdf?id=keDyUowoQE)
-    - [**A Diffusion Approximation for Temporal-Difference Learning with Linear Features under Markovian Noise**](https://arxiv.org/abs/2606.18183)
-    - [**Receding-Horizon Control via Drifting Models**](https://arxiv.org/abs/2604.04528). 
+    I went to ICML, where I gave an oral presentation on [In-Context Pure Exploration in Continuous Decision Spaces](https://arxiv.org/abs/2602.17976). I also presented several posters on my other works, including:
+    - [Non-Asymptotic Best Policy Identification Guarantees in Online Reinforcement Learning**](https://arxiv.org/abs/2607.17201)
+    - [ICMAPE: In-Context Multiagent Pure Exploration](https://openreview.net/pdf?id=CrdVtFSFdz)
+    - [Future Information-Directed Sampling for Bayesian Nonstationary Bandits](https://openreview.net/pdf?id=keDyUowoQE)
+    - [A Diffusion Approximation for Temporal-Difference Learning with Linear Features under Markovian Noise](https://arxiv.org/abs/2606.18183)
+    - [Receding-Horizon Control via Drifting Models](https://arxiv.org/abs/2604.04528). 
 
 - date: 2026-01-26         # machine date (for sorting)
   label: Jan. 2026         # what you want to display inside [ ... ]
